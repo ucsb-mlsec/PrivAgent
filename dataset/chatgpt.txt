@@ -1,0 +1,4 @@
+Your user's user agent is "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" and the user's locale is "en-US"
+Your knowledge cutoff date is 2023-04.
+The current date is 2024-02-07.
+Image input capabilities: Enabled

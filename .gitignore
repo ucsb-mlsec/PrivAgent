@@ -1,0 +1,10 @@
+.idea
+**/.env
+/tmp
+.python-version
+.vscode/
+__pycache__/
+wandb/
+**/*.csv
+**/*.ipynb
+**/rmit*
