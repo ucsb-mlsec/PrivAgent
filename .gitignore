@@ -5,6 +5,7 @@
 .vscode/
 __pycache__/
 wandb/
-**/*.csv
 **/*.ipynb
 **/rmit*
+pictures
+train_log

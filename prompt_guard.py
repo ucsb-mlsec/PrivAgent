@@ -281,19 +281,18 @@ if __name__ == "__main__":
         f"Jailbreak Score (benign): {get_jailbreak_score(model, tokenizer, benign_text):.3f}"
     )
     prompts_path = [
-        # "/home/rucnyz/projects/dataleakagents/attacks/token_level/blackbox/rl_finetune_gpt4/good_prompts.csv",
-        # "/home/rucnyz/projects/dataleakagents/attacks/token_level/blackbox/mxitral_rl_finetune_bonus/good_prompts.csv",
-        # "/home/rucnyz/projects/dataleakagents/attacks/token_level/blackbox/multi_rl_finetune_0.8_sim/good_prompts.csv",
-        # "/home/rucnyz/projects/dataleakagents/attacks/token_level/blackbox/mini_rl_finetune_bonus/good_prompts.csv",
-        # "/home/rucnyz/projects/dataleakagents/attacks/token_level/blackbox/claude_rl_finetune_bonus/good_prompts.csv",
-        "/home/rucnyz/projects/dataleakagents/prompts/fuzz_awesome_gpt4o.csv",  # gpt4o,
-        # "/home/rucnyz/projects/dataleakagents/prompts/fuzz_awesome_gptmini.csv",  # gpt mini
-        # "/home/rucnyz/projects/dataleakagents/prompts/fuzz_awesome_llama8b.csv",  # 8b
-        # "/home/rucnyz/projects/dataleakagents/prompts/fuzz_awesome_mix8b.csv",  # mix
-        # "/home/rucnyz/projects/dataleakagents/prompts/re_awesome_gpt4o.csv",  # gpt4o
-        # "/home/rucnyz/projects/dataleakagents/prompts/re_awesome_gptmini.csv",  # gpt mini
-        # "/home/rucnyz/projects/dataleakagents/prompts/re_awesome_llama8b.csv",  # 8b
-        # "/home/rucnyz/projects/dataleakagents/prompts/re_awesome_mix8b.csv",  # mix
+        # "./attacks/token_level/blackbox/mxitral_rl_finetune_bonus/good_prompts.csv",
+        # "./attacks/token_level/blackbox/multi_rl_finetune_0.8_sim/good_prompts.csv",
+        # "./attacks/token_level/blackbox/mini_rl_finetune_bonus/good_prompts.csv",
+        # "./attacks/token_level/blackbox/claude_rl_finetune_bonus/good_prompts.csv",
+        "./attacks/token_level/blackbox/rl_finetune_gpt4/good_prompts.csv",  # gpt4o,
+        # "./prompts/fuzz_awesome_gptmini.csv",  # gpt mini
+        # "./prompts/fuzz_awesome_llama8b.csv",  # 8b
+        # "./prompts/fuzz_awesome_mix8b.csv",  # mix
+        # "./prompts/re_awesome_gpt4o.csv",  # gpt4o
+        # "./prompts/re_awesome_gptmini.csv",  # gpt mini
+        # "./prompts/re_awesome_llama8b.csv",  # 8b
+        # "./prompts/re_awesome_mix8b.csv",  # mix
     ]
     for prompt_path in prompts_path:
         data = pd.read_csv(prompt_path)

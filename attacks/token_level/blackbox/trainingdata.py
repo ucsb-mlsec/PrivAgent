@@ -167,7 +167,7 @@ class ScriptArguments:
         default = "default", metadata = {"help": "the wandb experiment name"}
     )
     wandb_entity: Optional[str] = field(
-        default = "rucnyz", metadata = {"help": "the wandb entity"}
+        default = None, metadata = {"help": "the wandb entity"}
     )
     learning_rate: Optional[float] = field(
         default = 5e-5, metadata = {"help": "the learning rate"}
