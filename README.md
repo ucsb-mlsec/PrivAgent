@@ -1,4 +1,4 @@
-# LLMRedAgents
+# PrivAgent:Agentic-based Red-teaming for LLM Privacy Leakage
 
 ## How to run
 
